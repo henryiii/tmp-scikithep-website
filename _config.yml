@@ -12,7 +12,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 # Local: theme: "just-the-docs"
-theme: "pmarsceill/just-the-docs"
+remote_theme: "pmarsceill/just-the-docs"
 plugins:
   - jekyll-feed
 
