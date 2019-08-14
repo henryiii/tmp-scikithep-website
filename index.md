@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 title: Home
 nav_order: 1
@@ -44,84 +41,17 @@ To get started, have a look at our [GitHub repository][].
 The list of presently available packages follows, together with a very
 short description of their goals:
 
-**Interoperability and data manipulation:**
+{% for cat in site.data.categories -%}
+### {{cat.title}}:
 
--   [uproot](https://github.com/scikit-hep/uproot): minimalist ROOT I/O
-    in pure Python and Numpy.
--   [uproot-methods](https://github.com/scikit-hep/uproot-methods):
-    Pythonic behaviours for non-I/O related ROOT classes.
--   [root\_numpy](https://github.com/scikit-hep/root_numpy): interface
-    between ROOT and NumPy.
--   [root\_pandas](https://github.com/scikit-hep/root_pandas): module
-    for conveniently loading/saving ROOT files as pandas DataFrames.
--   [formulate](https://github.com/scikit-hep/formulate): easy
-    conversions between different styles of expressions.
+{% for item in site.data.projects -%}
+{%- assign project = item[1] -%}
+{%-   if project.family == cat.name -%}
+- [{{project.name}}]({{project.url}}): {{project.description}}
+{%   endif -%}
+{% endfor %}
 
-**Interface to HEP libraries:**
-
--   [numpythia](https://github.com/scikit-hep/numpythia): interface
-    between Pythia and NumPy.
--   [pyjet](https://github.com/scikit-hep/pyjet): interface between
-    FastJet and NumPy.
-
-**Event processing:**
-
--   [awkward-array](https://github.com/scikit-hep/awkward-array):
-    manipulate arrays of complex data structures as easily as Numpy.
-
-**Particles and decays:**
-
--   [Particle](https://github.com/scikit-hep/particle): PDG particle
-    data and identification codes.
--   [DecayLanguage](https://github.com/scikit-hep/decaylanguage):
-    describe and convert particle decays between digital
-    representations.
-
-**Histogramming:**
-
--   [boost-histogram](https://github.com/scikit-hep/boost-histogram):
-    Python bindings for the C++14 Boost::Histogram library.
--   [aghast](https://github.com/scikit-hep/aghast): aggregated,
-    histogram-like statistics, sharable as Flatbuffers.
--   [histbook](https://github.com/scikit-hep/histbook): versatile,
-    high-performance histogram toolkit for Numpy.
-
-**Fitting:**
-
--   [iminuit](https://github.com/scikit-hep/iminuit): MINUIT from
-    Python - Fitting like a boss.
--   [probfit](https://github.com/scikit-hep/probfit): Cost function
-    builder. For fitting distributions.
-
-**Simulation:**
-
--   [pyhepmc](https://github.com/scikit-hep/pyhepmc): next generation
-    Python bindings for HepMC3.
-
-**Machine Learning:**
-
--   [NNDrone](https://github.com/scikit-hep/NNDrone): collection of
-    tools and algorithms to enable conversion of HEP ML to mass usage
-    model.
-
-**Visualization:**
-
--   [vegascope](https://github.com/scikit-hep/vegascope): view
-    Vega/Vega-Lite plots in your web browser from local or remote Python
-    processes.
-
-**Units and constants:**
-
--   [hepunits](https://github.com/scikit-hep/hepunits): units and
-    constants in the HEP system of units.
-
-**Miscellaneous:**
-
--   [scikit-hep](https://github.com/scikit-hep/scikit-hep): toolset of
-    interfaces and tools for Particle Physics. To become a metapackage.
--   [scikit-hep-testdata](https://github.com/scikit-hep/scikit-hep-testdata):
-    common package to provide example files (e.g., ROOT) for testing and
-    developing packages against.
+{% endfor %}
 
 In some cases, the packages have to do with bridging between different
 technologies and/or popular packages from the Python scientific software

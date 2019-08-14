@@ -1,0 +1,8 @@
+name: DecayLanguage
+description: Describe and convert particle decays between digital representations.
+url: https://github.com/scikit-hep/decaylanguage
+readme: https://github.com/scikit-hep/decaylanguage/blob/master/README.md
+family: particle
+docs: https://decaylanguage.readthedocs.io/
+# affiliated: set to true for affiliated packages
+# repo: only if different from url

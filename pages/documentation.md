@@ -18,10 +18,13 @@ READMEs still contain handy \"getting started\" sections.
 | Package | README | Documentation |
 |---------|--------|---------------|
 {% for item in site.data.projects -%}
-{%- if item[1].docs != '' -%}
-{%- capture docs -%} [Read the Docs]({{item[1].docs}}) {%- endcapture -%}
+{%- assign project = item[1] -%}
+{%- if project.docs  -%}
+{%- capture docs -%} [Read the Docs]({{project.docs}}) {%- endcapture -%}
+{%- else -%}
+{%- assign docs="" -%}
 {%- endif -%}
-| [{{item[1].title}}](item[1].url) | [README]({{item[1].readme}}) | {{docs}} |
+| [{{project.name}}](project.url) | [README]({{project.readme}}) | {{docs}} |
 {% endfor %}
 
 

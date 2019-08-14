@@ -1,0 +1,8 @@
+name: histbook
+description: Versatile, high-performance histogram toolkit for Numpy.
+url: https://github.com/scikit-hep/histbook
+readme: https://github.com/scikit-hep/histbook/blob/master/README.rst
+family: histogramming
+docs: https://histbook.readthedocs.io/
+# affiliated: set to true for affiliated packages
+# repo: only if different from url
