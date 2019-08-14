@@ -1,0 +1,9 @@
+title: Particle
+tagline: PDG particle data and identification codes
+link: https://github.com/scikit-hep/particle
+readme: https://github.com/scikit-hep/particle/blob/master/README.rst
+docs: https://particle.readthedocs.io/
+family: particle
+
+# affilated: true
+# repo: only if different from link
