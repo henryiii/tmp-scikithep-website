@@ -31,8 +31,7 @@ Presentations
     CERN:
     -   *Particles and decays in the Scikit-HEP project*, Eduardo
         Rodrigues
-        \[`PDF <resources/rodrigues-lhcb-2019-08-18.pdf>`{.interpreted-text
-        role="download"}\]
+        \[[PDF]({{ site.baseurl }}{% link assets/resources/rodrigues-lhcb-2019-08-18.pdf %})\]
 -   **21 May 2019:** [Belle II](https://www.belle2.org/) experiment
     [Analysis Software Developers\'
     Meeting](https://indico.belle2.org/event/193/)
@@ -56,6 +55,7 @@ Presentations
     -   *Python in High-Energy Physics*, Hans Dembinski
         \[`PDF <resources/dembinski-pygamma19-2019-03-21.pdf>`{.interpreted-text
         role="download"}\]
+        \[[PDF]({{ site.baseurl }}{% link assets/resources/dembinski-pygamma19-2019-03-21.pdf %})\]
 -   **15 Oct. 2018:** [DIANA/HEP](http://www.diana-hep.org/) project
     [topical meeting](https://indico.cern.ch/event/754335/):
     -   *I/O for uproot*, Pratyush Das
@@ -85,8 +85,7 @@ Presentations
     experiment, [LHCb experiment](http://lhcb.cern.ch/) Analysis &
     Software Week, CERN:
     -   *The Scikit-HEP project*, Eduardo Rodrigues
-        \[`PDF <resources/rodrigues-lhcb-2017-04-06.pdf>`{.interpreted-text
-        role="download"}\]
+        \[[PDF]({{ site.baseurl }}{% link assets/resources/rodrigues-lhcb-2017-04-06.pdf %})\]
 -   **27 Feb. 2017:** first presentation of the project,
     [DIANA/HEP](http://www.diana-hep.org/) project [topical
     meeting](https://indico.cern.ch/event/596272/), CERN:

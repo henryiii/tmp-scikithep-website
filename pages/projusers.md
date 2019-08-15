@@ -15,30 +15,34 @@ of the Scikit-HEP project.
 Experiment collaborations
 -------------------------
 
-[![image](/assets/images/projusers/logo_belle2.png)](%60BelleII%60_)
+[![image]({{ site.baseurl }}{% link /assets/images/projusers/logo_belle2.png %})][BelleII]
 
+[BelleII]: https://www.belle2.org/
 [BelleII](https://www.belle2.org/) - the Belle II experiment at KEK,
 Japan.
 
-[![image](/assets/images/projusers/logo_cms.gif)](%60CMS%60_)
+[![image]({{ site.baseurl }}{% link /assets/images/projusers/logo_cms.gif %})][CMS]
 
+[CMS]: https://cms.cern/
 [CMS](https://cms.cern/) - the Compact Muon Solenoid experiment at CERN,
 Switzerland.
 
 Phenomenology projects
 ----------------------
 
-[![image](/assets/images/projusers/logo_flavio.png)](%60flavio%60_)
+[![image]({{ site.baseurl }}{% link /assets/images/projusers/logo_flavio.png %})][flavio]
 
+[flavio]: https://flav-io.github.io/
 [flavio](https://flav-io.github.io/) - flavour physics phenomenology in
 the Standard Model and beyond.
 
 Software projects
 -----------------
 
-[![image](/assets/images/projusers/logo_coffea.jpg)](%60Coffea%60_)
+[Coffea]: https://github.com/CoffeaTeam
+[![image]({{ site.baseurl }}{% link /assets/images/projusers/logo_coffea.jpg %})][Coffea]
 
-[Coffea](https://github.com/CoffeaTeam) - a prototype [Analysis
+[Coffea][] - a prototype [Analysis
 System](http://iris-hep.org/as.html) incorporating Scikit-HEP packages
 to provide a lightweight, scalable, portable, and user-friendly
 interface for columnar analysis of HEP data. Some of the sub-packages of
