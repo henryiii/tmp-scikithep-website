@@ -53,8 +53,6 @@ Presentations
     Workshop](https://indico.cern.ch/event/783425/), Heidelberg,
     Germany:
     -   *Python in High-Energy Physics*, Hans Dembinski
-        \[`PDF <resources/dembinski-pygamma19-2019-03-21.pdf>`{.interpreted-text
-        role="download"}\]
         \[[PDF]({{ site.baseurl }}{% link assets/resources/dembinski-pygamma19-2019-03-21.pdf %})\]
 -   **15 Oct. 2018:** [DIANA/HEP](http://www.diana-hep.org/) project
     [topical meeting](https://indico.cern.ch/event/754335/):
