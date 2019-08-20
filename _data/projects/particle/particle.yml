@@ -2,7 +2,6 @@ name: Particle
 description: PDG particle data and identification codes.
 url: https://github.com/scikit-hep/particle
 readme: https://github.com/scikit-hep/particle/blob/master/README.rst
-family: particle
 # docs: <url>
 # affiliated: set to true for affiliated packages
 # repo: only if different from url

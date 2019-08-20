@@ -44,11 +44,9 @@ short description of their goals:
 {% for cat in site.data.categories -%}
 ### {{cat.title}}:
 
-{% for item in site.data.projects -%}
+{% for item in site.data.projects[cat.name] -%}
 {%- assign project = item[1] -%}
-{%-   if project.family == cat.name -%}
 - [{{project.name}}]({{project.url}}): {{project.description}}
-{%   endif -%}
 {% endfor %}
 
 {% endfor %}
